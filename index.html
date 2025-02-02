@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="profile-card">
+    <img src="./assets/profile.png" alt="Profile Picture" class="profile-picture" data-testid="profilePicture">
+    <h2 class="full-name" data-testid="fullName">Chichebe John Nmesoma</h2>
+    <p class="job-title" data-testid="JobTitle">Frontend Developer</p>
+    <p class="short-bio" data-testid="shortBio">
+      Passionate about building interactive and accessible web application. Enthusiastic about modern JavaScript framworks and UI/UX best practices.
+    </p>
+    <p class="location" data-testid="currentLocation"> Abuja, Nigeria</p>
+    <p class="email" data-testid="emailAddress">chichebenmesoma@gmail</p>
+
+    <div class="social-links" data-testid="socialLinks">
+      <a href="https://www.linkedin.com/in/chichebejohnnmesoma/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/ChichebeJohn" target="_blank">GitHub</a>
+      <a href="https://chichebejohn.netlify.app/" target="_blank">Portfolio</a>
+    </div>
+    <p class="current-time" data-testid="currentTimeUTC"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
